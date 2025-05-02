@@ -1,0 +1,10 @@
+services:
+  fastapi:
+    build: .
+    container_name: calalogue-chatbot
+    environment:
+      - OPENAI_API_KEY=sk-open-api-key
+    volumes:
+      - ./app:/app
+    ports:
+      - "8012:8000"
