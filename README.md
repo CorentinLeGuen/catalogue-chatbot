@@ -1,6 +1,6 @@
 # 📚 Catalogue ChatBot
 
-Un chatbot léger développé avec **FastAPI** qui permet de converser sur l'application [catalogue]().
+Un chatbot léger développé avec **FastAPI** qui permet de converser sur l'application [catalogue](https://github.com/CorentinLeGuen/catalogue).
 Le chatbot se configure avec la liste des Books disponible sur l'API principale.
 
 ## ⚙️ Installation
@@ -21,6 +21,9 @@ docker-compose up --build -d
 ```
 
 ### En local avec uvicorn
+
+> Remplacer les accès dans le [.env](.env.example).
+
 ```shell
 uvicorn app:app --reload --host 0.0.0.0 --port 8012
 ```
