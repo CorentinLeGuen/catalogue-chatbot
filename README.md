@@ -15,7 +15,7 @@ Créez un fichier .env et placez-y votre clé [OpenAI](https://platform.openai.c
 
 ### Conteneurisé
 ```shell
-git clone <projet-path.git>
+git clone https://github.com/CorentinLeGuen/catalogue-chatbot.git
 cd catalogue-chatbot
 docker-compose up --build -d
 ```
